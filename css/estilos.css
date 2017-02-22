@@ -4,3 +4,17 @@ body{
 img{
 	border-radius: 10px;
 }
+footer{
+	margin-top: 20px;
+}
+a[ref^='#']{
+	color:red;
+}
+
+img[src$='.svg']{
+	border-radius: 50px;
+}
+img[src$='.jpg']{
+	border:1px solid black;
+	border-radius: 5px; 
+}
